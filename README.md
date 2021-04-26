@@ -1,5 +1,5 @@
 # CSC245-Final-Project
 
-ALi Youssef Solh
+Ali Youssef Solh
 Rani Salman
 Mohamad Khalifeh
