@@ -61,7 +61,7 @@ public class LoginPage extends JFrame implements ActionListener{
 	public void actionPerformed(ActionEvent click) {
 		if (click.getSource() == loginButton)
 			try {
-				String email = emailInput.getText();
+				String email = emailInput.getText().trim();
 				@SuppressWarnings("deprecation")
 				String password =  passwordInput.getText();
 				LauUser user = UsersTextFile.getUser(email, password);
